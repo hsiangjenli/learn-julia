@@ -1,0 +1,1 @@
+An example of print "Hello World" in Julia.
