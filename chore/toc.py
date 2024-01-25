@@ -1,4 +1,5 @@
 from jinja2 import FileSystemLoader, Environment
+import markdown
 import glob
 import os
 
@@ -14,6 +15,7 @@ for folder in folders:
 
     if os.path.isfile(folder + 'description.txt'):
         description = open(folder + 'description.txt', 'r').read()
+        description = markdown.markdown(description)
     else:
         description = ''
 
