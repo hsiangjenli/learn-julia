@@ -49,4 +49,9 @@ Some of the code comes from [JuliaAcademy/JuliaTutorials](https://github.com/Jul
         <td><a href="./008_data_structure/">data structure</td>
         <td><p>Contains three types of data structures: <code>tuples</code>, <code>dictionaries</code>, and <code>arrays</code>.</p></td>
     </tr>
+    <tr>
+        <td><center>9</center></td>
+        <td><a href="./009_loop/">loop</td>
+        <td><p>An easy example of how to use loops in Julia.</p></td>
+    </tr>
 </table>
